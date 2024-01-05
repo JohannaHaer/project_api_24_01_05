@@ -25,9 +25,7 @@ fetch("https://picsum.photos/v2/list")
 
         let productButton = document.createElement("button")
         productButton.textContent = "See more"
-        productButton.addEventListener("click", () => {
-            window.open(imgURL)
-        })
+        productButton.addEventListener("click", () => window.open(imgURL))
         productContainer.appendChild(productButton)
         document.querySelector("#products").appendChild(productContainer)
     })

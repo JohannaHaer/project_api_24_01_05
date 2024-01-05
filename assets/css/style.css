@@ -5,7 +5,7 @@ section {
 }
 
 div {
-    background-color: green;
+    background-color: rgba(128, 128, 128, 0.551);
     width: 35%;
     padding: 2rem;
 }
